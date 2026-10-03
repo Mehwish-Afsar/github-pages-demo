@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+/jspm_packages/
+/.pnp
+.pnp.js
+
+# Production / Build outputs
+/build
+/dist
+/out
+/.next
+/out-tsc
+/bin
+/obj
+
+# Testing and Coverage
+/coverage
+/.nyc_output
+*.lcov
+
+# Environment Variables & Secrets (CRITICAL: Never commit these)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.pem
+
+# Logs
+yaml-output.log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor / IDE Configs
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Diagnostic and Diagnostic tools Cache
+.eslintcache
+.stylelintcache
+.turbo/
+.cache/
+.parcel-cache/
+.tsbuildinfo
+
+# OS Metadata (Mac / Windows)
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
